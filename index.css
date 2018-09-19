@@ -25,7 +25,7 @@ body {
   color: hsl(0, 0%, 96%) !important;
 }
 
-.navbar-item:hover, .allies h1, .allies2 h1 {
+.navbar-item:hover, .allies h1, .allies2 h1, .active {
   color: rgb(255, 87, 26) !important;
 }
 
