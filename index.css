@@ -1,0 +1,215 @@
+body {
+ background: rgb(214, 224, 245); 
+ height: 100%;
+ /*
+ background-repeat: no-repeat;
+ -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover; */
+}
+
+.hero {
+  background: rgb(0, 0, 26);  
+}
+
+.navbar {
+  background: rgba(0, 0, 51, 0.6) !important;
+  padding-left: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.navbar-item {
+  color: hsl(0, 0%, 96%) !important;
+}
+
+.navbar-item:hover, .allies h1, .allies2 h1 {
+  color: rgb(255, 87, 26) !important;
+}
+
+.boicot {
+  width: 300px;
+  height: 130px;
+  border: 5px inset black;
+}
+
+.leftSide {
+  float: left;  
+}
+
+.righttSide {
+  float: right;
+  letter-spacing: 1.5px;
+}
+
+.favFont {
+  font-family: "Bree Serif", serif; 
+  letter-spacing: 1.5px;
+}
+
+.corner1 {
+  width: 100px;
+  height: 100px;
+  -webkit-clip-path: polygon(100% 0, 0 0, 0 100%);
+  clip-path: polygon(100% 0, 0 0, 0 100%);
+}
+
+.corner2 {
+  width: 100px;
+  height: 100px;
+  float: right;
+  -webkit-clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+  clip-path: polygon(100% 0, 0% 100%, 100% 100%);
+}
+
+.intro p, .intro h2 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.intro h2 {
+  margin-top: 20px;
+}
+
+/* yellow */
+.bg1 {
+  background: rgb(255, 209, 0);
+}
+
+/* orange */
+.bg2 {
+  background: rgb(255, 69, 0);
+}
+
+/* blue*/
+.bg3 {
+  background: rgb(7, 29, 74);
+  margin: 15px;
+  padding: 15px;
+}
+
+.bg3 a {
+  color: white;
+}
+
+.bg3 a:hover {
+  color: black !important;
+}
+
+/* green */
+.bg4 {
+   background: rgb(107, 179, 0);
+}
+
+/* pink */
+.bg5 {
+  background: rgb(235, 59, 139);
+}
+
+ul li {
+  list-style-type: square;
+}
+
+.timeLine ul {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.youCan {
+  padding-bottom: 100px !important;
+}
+
+.youCan h1, .modif h1, .allies h1, .allies2 h1 {
+  margin-bottom: 25px;
+}
+
+.youCan a {
+  color: rgb(45, 51, 0);
+  text-decoration: underline;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.youCan p, .modif p {
+  padding: 15px;
+}
+
+.youCan .column, .modif .column {
+  margin: 20px;   
+}
+
+.family {
+  opacity: 0.7;
+}
+
+/*articles css*/
+.expando {
+  display: none;
+}
+
+.expando:target {
+  display: block;
+}
+
+#showLess:target {
+  display: block;
+}
+
+.see {
+  margin-left: 20px;
+}
+
+.articles {
+  margin-bottom: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.articleTitles h2 {
+  margin-bottom: 20px;
+  color: rgb(255, 69, 0);
+}
+
+.articleTitles a {
+  color: rgb(107, 179, 0);
+}
+
+@media only screen and (max-width: 768px) {
+  
+  .navbar {
+    padding-left: 5px;
+  }
+  
+  .navbar-item:hover {
+    background: none !important;
+  }
+  
+  .corner2 {
+    position: relative;
+    bottom: 80px;
+  }
+  
+  .modif p {
+    padding: 5px;
+  }
+  
+  .modif .column {
+    margin: 0;
+  }
+  
+  .intro .column {
+    padding-bottom: 20px !important;
+  }
+  
+  .bg2 h2 {
+    padding-top: 20px !important;
+  }
+  
+  .timeLine ul {
+    margin: 10px;
+  }
+ 
+}
+  
