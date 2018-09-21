@@ -1,5 +1,5 @@
 body {
- background: rgb(214, 224, 245); 
+ background: rgb(255, 242, 230); 
  height: 100%;
  /*
  background-repeat: no-repeat;
@@ -10,7 +10,7 @@ body {
 }
 
 .hero {
-  background: rgb(0, 0, 26);  
+  background: rgb(41, 41, 61);  
 }
 
 .navbar {
