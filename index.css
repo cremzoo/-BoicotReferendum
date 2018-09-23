@@ -176,6 +176,35 @@ ul li {
   color: rgb(107, 179, 0);
 }
 
+/*footer*/
+
+.footer {
+  background: rgb(31, 31, 46) !important;
+  letter-spacing: 1.5px;
+}
+
+.fa-copyright {
+  margin-right: 5px;
+}
+
+.copy, .share { 
+  margin-bottom: 30px;
+}
+
+.copy a {
+  color: white;
+  text-decoration: underline;
+}
+
+.copy a:hover, .socials a:hover {
+  color: rgb(255, 87, 26);
+}
+
+.socials a {
+  color: white;
+}
+
+
 @media only screen and (max-width: 768px) {
   
   .navbar {
