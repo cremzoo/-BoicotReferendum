@@ -164,13 +164,13 @@ ul li {
   margin-right: 20px;
 }
 
-.articleTitles h2 {
+.articleTitles h2, .articles h1 {
   margin-bottom: 20px;
   color: rgb(255, 69, 0);
 }
 
 
-.articleTitles a, {
+.articleTitles a {
   color: rgb(107, 179, 0);
 }
 
