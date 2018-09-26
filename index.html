@@ -195,18 +195,17 @@
       
        <p class="is-size-4">Contactează-ne:</p>
       
-      <form name="contact" method="POST" data-netlify="true">
-         <p>
-           <label>Nume:<input type="text" name="name"></label>
-        </p>
+      <form name="contact" method="post" netlify>
         
-        <p>
-          <label>Email:<input type="email" name="email"></label>
-        </p>
+           <label for="name">Nume:</label>
+           <input type="text" name="name" id="name" placeholder="Nume">
+      
+          <label for="email">Email:/label>
+          <input type="email" name="email" id="email" placeholder="Email">
         
-        <p>
-          <label><textarea rows="15" cols="25"></textarea></label>
-        </p>
+          <label for="message">Mesaj</label>
+          <textarea id="message" name="message"></textarea>
+        
         <button type="submit" id="submit">Trimite</button>
         </form>
       
