@@ -230,13 +230,8 @@ ul li {
 
 textarea {
   margin-top: 10px !important;
+  height: 200px;
 }
-
-form p {
-  margin-bottom: 10px !important;  
-}
-
-
 
 #submit {
   display: block;
