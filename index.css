@@ -221,6 +221,18 @@ ul li {
   padding: 20px;
 }
 
+textarea {
+  margin-top: 20px !important;
+}
+
+form p {
+  margin: 10px !important;
+  
+}
+
+input {
+  margin-left: 5px !important;
+}
 
 
 @media only screen and (max-width: 768px) {
