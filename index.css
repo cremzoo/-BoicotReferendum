@@ -222,16 +222,21 @@ ul li {
 }
 
 textarea {
-  margin-top: 20px !important;
+  margin-top: 10px !important;
 }
 
 form p {
-  margin: 10px !important;
-  
+  margin-bottom: 10px !important;  
 }
 
 input {
   margin-left: 5px !important;
+}
+
+#submit {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
 }
 
 
