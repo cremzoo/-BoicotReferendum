@@ -246,6 +246,11 @@ input {
   margin-left: 5px !important;
 }
 
+#submit {
+  display: block;
+  margin: auto;
+  margin-top: 10px;
+}
 
 
 @media only screen and (max-width: 768px) {
