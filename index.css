@@ -272,7 +272,7 @@ input {
     padding: 5px;
   }
   
-  .modif .column {
+  .modif .column, .youCan .column {
     margin: 0;
   }
   
