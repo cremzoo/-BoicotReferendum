@@ -304,5 +304,8 @@ input {
     display: none;
   }
   
+  .is-medium p {
+    font-size: 18px;
+  
 }
   
