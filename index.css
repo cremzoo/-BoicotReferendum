@@ -199,6 +199,10 @@ ul li {
   display: none;  
 }
 
+.motto {
+  margin-left: 3%;
+}
+
 /*footer*/
 
 .footer {
