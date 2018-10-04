@@ -301,7 +301,7 @@ input {
     display: none;
   }
   
-  .is-medium p {
+  .is-medium p, .is-medium blockquote {
     font-size: 15px !important;
   
 }
