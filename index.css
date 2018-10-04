@@ -200,7 +200,7 @@ ul li {
 }
 
 .motto {
-  margin-left: 3%;
+  float: right;
 }
 
 /*footer*/
