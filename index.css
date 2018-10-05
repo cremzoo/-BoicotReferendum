@@ -175,11 +175,11 @@ ul li {
 }
 
 .
-.articlecremz a {
+.articlecremz .bg2 a {
   color: black !important;
 }
 
-.articlecremz a:hover {
+.articlecremz .bg2 a:hover {
   color: blue !important;
 }
 
