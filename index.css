@@ -190,12 +190,13 @@ ul li {
 }
 
 .
-.articlecremz .columns a {
+.articlecremz a {
   color: black;
+  text-decoration: underline;
 }
 
-.articlecremz .columns a:hover {
-  color: white;
+.articlecremz a:hover {
+  color: blue;
 }
 
 .news a {
