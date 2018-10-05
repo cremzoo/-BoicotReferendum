@@ -189,6 +189,15 @@ ul li {
   padding: 15px;
 }
 
+.
+.articlecremz a {
+  color: white;
+}
+
+.articlecremz a:hover {
+  color: black;
+}
+
 .news a {
   color: rgb(255, 163, 26);
 }
