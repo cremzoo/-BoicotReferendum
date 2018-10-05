@@ -149,21 +149,6 @@ ul li {
 }
 
 /*articles css*/
-.expando {
-  display: none;
-}
-
-.expando:target {
-  display: block;
-}
-
-#showLess:target {
-  display: block;
-}
-
-.see {
-  margin-left: 20px;
-}
 
 .articles {
   margin-bottom: 50px;
@@ -185,17 +170,16 @@ ul li {
   margin-top: 20px;
 }
 
-.articlecremz p{
+.articlecremz p {
   padding: 15px;
 }
 
 .
-.articlecremz p a {
+.articlecremz a {
   color: black !important;
-  text-decoration: underline !important;
 }
 
-.articlecremz p a:hover {
+.articlecremz a:hover {
   color: blue !important;
 }
 
