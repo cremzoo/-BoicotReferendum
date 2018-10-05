@@ -191,12 +191,12 @@ ul li {
 
 .
 .articlecremz a {
-  color: black;
-  text-decoration: underline;
+  color: black !important;
+  text-decoration: underline !important;
 }
 
 .articlecremz a:hover {
-  color: blue;
+  color: blue !important;
 }
 
 .news a {
