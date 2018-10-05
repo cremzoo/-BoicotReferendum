@@ -181,6 +181,14 @@ ul li {
   color: rgb(107, 179, 0);
 }
 
+.articlecremz .columns {
+  margin-top: 20px;
+}
+
+.articlecremz p{
+  padding: 15px;
+}
+
 .news a {
   color: rgb(255, 163, 26);
 }
