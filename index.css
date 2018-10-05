@@ -190,12 +190,12 @@ ul li {
 }
 
 .
-.articlecremz a {
+.articlecremz p a {
   color: black !important;
   text-decoration: underline !important;
 }
 
-.articlecremz a:hover {
+.articlecremz p a:hover {
   color: blue !important;
 }
 
